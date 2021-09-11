@@ -8,10 +8,12 @@
     <artifactId>minecraft-lobby-</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
+    -->
 
     <repositories>
         <!-- This adds the Spigot Maven repository to the build -->
@@ -30,4 +32,17 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <release>10</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
