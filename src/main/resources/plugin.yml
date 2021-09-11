@@ -1,0 +1,3 @@
+name: McServerLobby
+version: 1.0
+main: net.simax_dev.mc_server_lobby.McServerLobbyPlugin
