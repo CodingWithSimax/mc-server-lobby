@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.simax-dev</groupId>
-    <artifactId>minecraft-lobby-</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>mc-server-lobby</artifactId>
+    <version>0.1</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
